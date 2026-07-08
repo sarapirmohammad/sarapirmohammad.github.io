@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Fairness on Hugo Profile</title>
-		<link>http://localhost:55322/tags/fairness/</link>
+		<link>https://hugo-profile.netlify.app/tags/fairness/</link>
 		<description>Recent content in Fairness on Hugo Profile</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:55322/tags/fairness/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://hugo-profile.netlify.app/tags/fairness/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?</title>
-				<link>http://localhost:55322/blogs/ai-ethics/</link>
+				<link>https://hugo-profile.netlify.app/blogs/ai-ethics/</link>
 				<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:55322/blogs/ai-ethics/</guid>
+				<guid>https://hugo-profile.netlify.app/blogs/ai-ethics/</guid>
 				<description>&lt;h1 id=&#34;the-hidden-bias-in-artificial-intelligence-can-ai-ever-be-truly-fair&#34;&gt;The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sara Pirmohammad&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Artificial Intelligence (AI) has become one of the most influential technologies of the modern world. It is used in healthcare, education, finance, transportation, social media, and many other industries. AI systems can process large amounts of data, identify patterns, and make predictions much faster than humans. Because of these capabilities, organizations increasingly rely on AI to support decision-making and improve efficiency.&lt;/p&gt;</description>
 			</item>
 	</channel>
