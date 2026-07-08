@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55322&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/fav.png" type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:55322/blogs/ai-ethics/">
+	<meta property="og:site_name" content="Hugo Profile">
+	<meta property="og:title" content="The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?">
+	<meta property="og:description" content="The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair? Sara Pirmohammad
+Introduction Artificial Intelligence (AI) has become one of the most influential technologies of the modern world. It is used in healthcare, education, finance, transportation, social media, and many other industries. AI systems can process large amounts of data, identify patterns, and make predictions much faster than humans. Because of these capabilities, organizations increasingly rely on AI to support decision-making and improve efficiency.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blogs">
+		<meta property="article:published_time" content="2026-07-02T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-07-02T00:00:00+00:00">
+		<meta property="article:tag" content="AI">
+		<meta property="article:tag" content="Ethics">
+		<meta property="article:tag" content="Bias">
+		<meta property="article:tag" content="Fairness">
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?">
+	<meta name="twitter:description" content="The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair? Sara Pirmohammad
+Introduction Artificial Intelligence (AI) has become one of the most influential technologies of the modern world. It is used in healthcare, education, finance, transportation, social media, and many other industries. AI systems can process large amounts of data, identify patterns, and make predictions much faster than humans. Because of these capabilities, organizations increasingly rely on AI to support decision-making and improve efficiency.">
+
+
+
+
+  
+    <link rel="alternate" hreflang="en" href="http://localhost:55322/blogs/ai-ethics/" title="English">
+  
+  
+  <meta property="og:locale" content="en">
+  
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair? | Hugo Profile
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/logo.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                sara pirmohammad
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Projects
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">
+                            Achievements
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/gallery" title="Image gallery">
+                            
+                            Gallery
+                        </a>
+                    </li>
+                    
+                    
+<li class="nav-item navbar-text dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+            🌐
+            <span class="d-none d-md-inline">English</span>
+        
+    </a>
+    <div class="dropdown-menu shadow-lg rounded" aria-labelledby="languageDropdown"><a class="dropdown-item text-center nav-link active" 
+               href="/" 
+               title="English">
+                English
+            </a><a class="dropdown-item text-center nav-link" 
+               href="/es/" 
+               title="Español">
+                Español
+            </a><a class="dropdown-item text-center nav-link" 
+               href="/fr/" 
+               title="Français">
+                Français
+            </a></div>
+</li>
+
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?</h1>
+            <div class="text-center">
+              
+              Jul 2, 2026
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid mx-auto d-block" src="/images/assignment3.png" alt="The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?">
+          </div>
+          
+          <article class="page-content  p-2">
+          <h1 id="the-hidden-bias-in-artificial-intelligence-can-ai-ever-be-truly-fair">The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?</h1>
+<p><strong>Sara Pirmohammad</strong></p>
+<h2 id="introduction">Introduction</h2>
+<p>Artificial Intelligence (AI) has become one of the most influential technologies of the modern world. It is used in healthcare, education, finance, transportation, social media, and many other industries. AI systems can process large amounts of data, identify patterns, and make predictions much faster than humans. Because of these capabilities, organizations increasingly rely on AI to support decision-making and improve efficiency.</p>
+<p>However, despite its many advantages, AI also raises important ethical concerns. One of the most significant concerns is algorithmic bias. AI systems are often viewed as objective and impartial, but in reality, they can inherit biases from the data used to train them. When biased systems are deployed in real-world situations, they may produce unfair outcomes that negatively affect individuals and communities.</p>
+<p>This blog post explores the ethical issue of bias and fairness in AI. It examines how bias emerges, why fairness is important, the role of transparency and accountability, the importance of AI governance and soft ethics, and how organizations can create more responsible AI systems. A real-world example will also demonstrate the impact of biased AI on society.</p>
+<h2 id="what-is-algorithmic-bias">What Is Algorithmic Bias?</h2>
+<p>Algorithmic bias occurs when an AI system produces results that unfairly favor or disadvantage certain groups of people. Although AI systems do not intentionally discriminate, they learn from historical data. If the data contains biases, the AI system may reproduce those same patterns.</p>
+<p>There are several ways bias can enter an AI system:</p>
+<ul>
+<li>Historical bias in datasets</li>
+<li>Incomplete or unrepresentative data</li>
+<li>Human assumptions during design</li>
+<li>Errors in data collection</li>
+<li>Lack of diversity among development teams</li>
+</ul>
+<p>For example, if an AI system is trained using data from a company that historically hired mostly men, the system may learn to associate successful candidates with characteristics that are more common among male applicants. As a result, qualified female candidates may be ranked lower despite having similar skills and experience.</p>
+<p>This demonstrates that AI systems are not automatically fair. Their outputs depend heavily on the quality and fairness of the data used during development.</p>
+<h2 id="why-fairness-matters-in-ai">Why Fairness Matters in AI</h2>
+<p>Fairness is one of the most important concepts in AI ethics. Fair AI systems should provide equal opportunities and avoid discrimination based on gender, race, age, religion, disability, or other personal characteristics.</p>
+<p>When AI systems make unfair decisions, the consequences can be significant. A biased hiring algorithm may prevent qualified individuals from obtaining employment. A biased healthcare system may provide unequal treatment recommendations. A biased financial system may affect loan approvals and credit decisions.</p>
+<p>Fairness matters because:</p>
+<ul>
+<li>Protects human rights</li>
+<li>Promotes equality</li>
+<li>Reduces discrimination</li>
+<li>Builds public trust</li>
+<li>Encourages responsible innovation</li>
+</ul>
+<p>Without fairness, AI systems risk reinforcing existing social inequalities instead of helping solve them.</p>
+<h2 id="real-world-example-amazons-ai-hiring-tool">Real-World Example: Amazon&rsquo;s AI Hiring Tool</h2>
+<p>One of the most famous examples of algorithmic bias involved Amazon&rsquo;s experimental AI recruiting system.</p>
+<p>Amazon developed a machine learning tool designed to review resumes and identify promising job candidates. The goal was to automate part of the hiring process and improve efficiency.</p>
+<p>However, the system was trained using historical hiring data collected over many years. Because the technology industry had traditionally hired more men than women, the AI learned patterns that favored male applicants.</p>
+<p>The system began penalizing resumes that contained terms associated with women. Even though gender was not explicitly used as a factor, the algorithm identified indirect patterns and incorporated them into its recommendations.</p>
+<p>Amazon eventually abandoned the project after discovering these issues.</p>
+<p>This example highlights several important ethical concepts:</p>
+<ul>
+<li>Bias</li>
+<li>Fairness</li>
+<li>Transparency</li>
+<li>Accountability</li>
+<li>Responsible AI Governance</li>
+</ul>
+<h2 id="the-importance-of-transparency">The Importance of Transparency</h2>
+<p>Transparency refers to openness about how AI systems function and make decisions. Many modern AI systems operate as “black boxes,” meaning users can see the outcome but cannot easily understand how the decision was made.</p>
+<p>This creates ethical concerns because people may not know:</p>
+<ul>
+<li>What data was used</li>
+<li>How decisions were generated</li>
+<li>Whether bias exists</li>
+<li>How mistakes can be corrected</li>
+</ul>
+<p>Transparency helps organizations build trust with users and stakeholders.</p>
+<h2 id="explainability-and-ethical-decision-making">Explainability and Ethical Decision-Making</h2>
+<p>Closely related to transparency is explainability. Explainability means that AI decisions can be understood and interpreted by humans.</p>
+<p>Imagine a person applying for a loan. If an AI system rejects the application, the individual should be able to understand why the decision was made. Without explainability, people may feel powerless when affected by automated decisions.</p>
+<p>Explainability is important because it:</p>
+<ul>
+<li>Builds trust</li>
+<li>Supports accountability</li>
+<li>Identifies errors</li>
+<li>Enables human oversight</li>
+<li>Protects individual rights</li>
+</ul>
+<h2 id="accountability-in-artificial-intelligence">Accountability in Artificial Intelligence</h2>
+<p>Accountability means that organizations and individuals must take responsibility for AI systems and their outcomes.</p>
+<p>A common ethical question is: Who is responsible when an AI system causes harm?</p>
+<p>Possible answers include:</p>
+<ul>
+<li>Software developers</li>
+<li>Data scientists</li>
+<li>Business leaders</li>
+<li>Organizations deploying the technology</li>
+</ul>
+<p>The reality is that accountability should be shared throughout the AI lifecycle.</p>
+<h2 id="ai-governance-and-regulation">AI Governance and Regulation</h2>
+<p>AI governance refers to the rules, policies, and practices used to guide the responsible development and use of AI technologies.</p>
+<p>Governments around the world are working to create regulations for AI. However, regulating AI presents unique challenges because technology often evolves faster than legislation.</p>
+<p>Some challenges include:</p>
+<ul>
+<li>Rapid innovation</li>
+<li>Global differences in laws</li>
+<li>Difficulty enforcing regulations</li>
+<li>Limited understanding of emerging technologies</li>
+</ul>
+<h2 id="the-role-of-soft-ethics">The Role of Soft Ethics</h2>
+<p>Soft ethics refers to voluntary ethical practices that extend beyond legal requirements.</p>
+<p>Examples include:</p>
+<ul>
+<li>Ethical review boards</li>
+<li>Internal AI guidelines</li>
+<li>Fairness audits</li>
+<li>Diversity initiatives</li>
+<li>Transparency reports</li>
+</ul>
+<p>Soft ethics helps organizations address ethical concerns even when laws are unclear or still developing.</p>
+<h2 id="strategies-for-building-ethical-ai">Strategies for Building Ethical AI</h2>
+<h3 id="1-use-diverse-and-representative-data">1. Use Diverse and Representative Data</h3>
+<p>Training data should reflect diverse populations to reduce the risk of systematic bias.</p>
+<h3 id="2-conduct-regular-audits">2. Conduct Regular Audits</h3>
+<p>AI systems should be tested regularly to identify unfair outcomes and unintended consequences.</p>
+<h3 id="3-increase-transparency">3. Increase Transparency</h3>
+<p>Organizations should clearly explain how systems work and communicate limitations honestly.</p>
+<h3 id="4-maintain-human-oversight">4. Maintain Human Oversight</h3>
+<p>Humans should remain involved in important decisions rather than relying entirely on automated systems.</p>
+<h3 id="5-promote-ethical-awareness">5. Promote Ethical Awareness</h3>
+<p>Developers, managers, and decision-makers should receive ethics training to better understand the societal impact of AI technologies.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Artificial Intelligence offers extraordinary opportunities to improve efficiency, productivity, and innovation. However, the technology also presents important ethical challenges that cannot be ignored.</p>
+<p>The example of Amazon&rsquo;s hiring algorithm demonstrates how AI systems can unintentionally reproduce historical inequalities when trained on biased data. This highlights the importance of fairness, transparency, explainability, accountability, governance, and soft ethics.</p>
+<p>Ultimately, the future of AI should not be measured solely by what machines can do, but by how responsibly humans choose to use them. This commitment to ethical principles will help ensure that AI benefits society while minimizing harm and maintaining public trust.</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#what-is-algorithmic-bias">What Is Algorithmic Bias?</a></li>
+    <li><a href="#why-fairness-matters-in-ai">Why Fairness Matters in AI</a></li>
+    <li><a href="#real-world-example-amazons-ai-hiring-tool">Real-World Example: Amazon&rsquo;s AI Hiring Tool</a></li>
+    <li><a href="#the-importance-of-transparency">The Importance of Transparency</a></li>
+    <li><a href="#explainability-and-ethical-decision-making">Explainability and Ethical Decision-Making</a></li>
+    <li><a href="#accountability-in-artificial-intelligence">Accountability in Artificial Intelligence</a></li>
+    <li><a href="#ai-governance-and-regulation">AI Governance and Regulation</a></li>
+    <li><a href="#the-role-of-soft-ethics">The Role of Soft Ethics</a></li>
+    <li><a href="#strategies-for-building-ethical-ai">Strategies for Building Ethical AI</a>
+      <ul>
+        <li><a href="#1-use-diverse-and-representative-data">1. Use Diverse and Representative Data</a></li>
+        <li><a href="#2-conduct-regular-audits">2. Conduct Regular Audits</a></li>
+        <li><a href="#3-increase-transparency">3. Increase Transparency</a></li>
+        <li><a href="#4-maintain-human-oversight">4. Maintain Human Oversight</a></li>
+        <li><a href="#5-promote-ethical-awareness">5. Promote Ethical Awareness</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              
+              <li class="list-inline-item"><a href="/tags/ai"
+                target="_blank"
+              >AI</a></li>
+              
+              
+              <li class="list-inline-item"><a href="/tags/ethics"
+                target="_blank"
+              >Ethics</a></li>
+              
+              
+              <li class="list-inline-item"><a href="/tags/bias"
+                target="_blank"
+              >Bias</a></li>
+              
+              
+              <li class="list-inline-item"><a href="/tags/fairness"
+                target="_blank"
+              >Fairness</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text= http%3a%2f%2flocalhost%3a55322%2fblogs%2fai-ethics%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='https://twitter.com/share?text=The%20Hidden%20Bias%20in%20Artificial%20Intelligence%3a%20Can%20AI%20Ever%20Be%20Truly%20Fair%3f&url=http%3a%2f%2flocalhost%3a55322%2fblogs%2fai-ethics%2f&hashtags=AI%2cEthics%2cBias%2cFairness'>
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=The%20Hidden%20Bias%20in%20Artificial%20Intelligence%3a%20Can%20AI%20Ever%20Be%20Truly%20Fair%3f: http%3a%2f%2flocalhost%3a55322%2fblogs%2fai-ethics%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=The%20Hidden%20Bias%20in%20Artificial%20Intelligence%3a%20Can%20AI%20Ever%20Be%20Truly%20Fair%3f&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a55322%2fblogs%2fai-ethics%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+
+
+  
+
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/ai-ethics/">
+                        <img src="/images/assignment3.png" class="card-img-top" alt="The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/ai-ethics/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?">The Hidden Bias in …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><h1 id="the-hidden-bias-in-artificial-intelligence-can-ai-ever-be-truly-fair">The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?</h1>
+<p><strong>Sara Pirmohammad</strong></p>
+<h2 id="introduction">Introduction</h2>
+<p>Artificial Intelligence (AI) has become one of the most influential technologies of the modern world. It is used in healthcare, education, finance, transportation, social media, and many other …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">July 2, 2026</span>
+                    <a href="/blogs/ai-ethics/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/assignment2/">
+                        <img src="/images/assignment2.png" class="card-img-top" alt="Anonymous or Not? The Ethics of Course Evaluation Surveys">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/assignment2/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Anonymous or Not? The Ethics of Course Evaluation Surveys">Anonymous or Not? The …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p>Anonymous or Not? The Ethics of Course Evaluation Surveys</p>
+<p>Introduction
+Course evaluation surveys are commonly used by colleges and organizations to gather feedback from students and improve educational programs. This blog post analyzes the ethical concerns surrounding a survey that requires students …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">June 17, 2026</span>
+                    <a href="/blogs/assignment2/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/sarapirmohammad" target="_blank" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:55322/" title="Hugo Profile">
+                        <img alt="Footer logo" src="/logo.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2026  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script>
+      
+      window.searchIndexURL = "/index.json";
+    </script>
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
