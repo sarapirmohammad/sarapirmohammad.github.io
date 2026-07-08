@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Blogs on Hugo Profile</title>
+		<link>https://hugo-profile.netlify.app/blogs/</link>
+		<description>Recent content in Blogs on Hugo Profile</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://hugo-profile.netlify.app/blogs/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?</title>
+				<link>https://hugo-profile.netlify.app/blogs/ai-ethics/</link>
+				<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://hugo-profile.netlify.app/blogs/ai-ethics/</guid>
+				<description>&lt;h1 id=&#34;the-hidden-bias-in-artificial-intelligence-can-ai-ever-be-truly-fair&#34;&gt;The Hidden Bias in Artificial Intelligence: Can AI Ever Be Truly Fair?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sara Pirmohammad&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Artificial Intelligence (AI) has become one of the most influential technologies of the modern world. It is used in healthcare, education, finance, transportation, social media, and many other industries. AI systems can process large amounts of data, identify patterns, and make predictions much faster than humans. Because of these capabilities, organizations increasingly rely on AI to support decision-making and improve efficiency.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Anonymous or Not? The Ethics of Course Evaluation Surveys</title>
+				<link>https://hugo-profile.netlify.app/blogs/assignment2/</link>
+				<pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://hugo-profile.netlify.app/blogs/assignment2/</guid>
+				<description>&lt;p&gt;Anonymous or Not? The Ethics of Course Evaluation Surveys&lt;/p&gt;&#xA;&lt;p&gt;Introduction&#xA;Course evaluation surveys are commonly used by colleges and organizations to gather feedback from students and improve educational programs. This blog post analyzes the ethical concerns surrounding a survey that requires students to log in while claiming responses are anonymous.&#xA;Understanding the Ethical Problem&#xA;The survey is intended to provide actionable insights to management. However, requiring users to log in while promising anonymity raises concerns about privacy, transparency, fairness, accountability, and trust.&#xA;Question 1: Ethical Issues&#xA;Key issues include lack of transparency, privacy concerns, informed consent challenges, question design bias, and reduced trust in the survey process.&#xA;Question 2: Other Ethical Issues&#xA;Additional concerns include data security risks, function creep, fear of retaliation, sample bias, and accountability problems.&#xA;Question 3: Recommendations&#xA;Recommendations include improving transparency, using true anonymization, strengthening consent procedures, enhancing data security, reviewing survey questions, and establishing governance policies.&#xA;Question 4: If Management Rejects Recommendations&#xA;A data analyst should document concerns, communicate professionally, escalate through appropriate channels if necessary, avoid misleading analysis, and continue following ethical principles.&#xA;Conclusion&#xA;Ethical data science requires balancing business goals with privacy, fairness, transparency, and accountability. Organizations that prioritize ethics build trust and make better decisions.&#xA;Discussion Point 1: Ethical data collection requires organizations to respect privacy, minimize bias, protect sensitive information, and maintain transparency about how data is used.&#xA;Discussion Point 2: Ethical data collection requires organizations to respect privacy, minimize bias, protect sensitive information, and maintain transparency about how data is used.&#xA;Discussion Point 3: Ethical data collection requires organizations to respect privacy, minimize bias, protect sensitive information, and maintain transparency about how data is used.&#xA;Discussion Point 4: Ethical data collection requires organizations to respect privacy, minimize bias, protect sensitive information, and maintain transparency about how data is used.&#xA;Discussion Point 5: Ethical data collection requires organizations to respect privacy, minimize bias, protect sensitive information, and maintain transparency about how data is used.&#xA;Discussion Point 6: Ethical data collection requires organizations to respect privacy, minimize bias, protect sensitive information, and maintain transparency about how data is used.&#xA;Discussion Point 7: Ethical data collection requires organizations to respect privacy, minimize bias, protect sensitive information, and maintain transparency about how data is used.&#xA;Discussion Point 8: Ethical data collection requires organizations to respect privacy, minimize bias, protect sensitive information, and maintain transparency about how data is used.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
